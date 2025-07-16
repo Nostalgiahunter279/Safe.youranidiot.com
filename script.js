@@ -17,6 +17,6 @@ document.getElementById("disclaimer").style.display = "none";
     document.body.appendChild(face);
 
     count++;
-    if (count > 50) clearInterval(interval);
-  }, 500);
+    if (count > 500) clearInterval(interval);
+  }, 200);
 }
