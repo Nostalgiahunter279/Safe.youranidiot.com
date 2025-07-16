@@ -1,7 +1,7 @@
 let count = 0;
 <button onclick="startMadness()">Enter</button>
 
-<audio id="idiot-audio" loop>
+<audio id="you-are-an-idiot.MP3" loop>
   <source src="you-are-an-idiot.mp3" type="audio/mpeg">
 </audio>
 document.getElementById("disclaimer").style.display = "none";
