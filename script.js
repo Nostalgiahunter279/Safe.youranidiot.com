@@ -1,7 +1,10 @@
 let count = 0;
+<button onclick="startMadness()">Enter</button>
 
-function startMadness() {
-  document.getElementById("disclaimer").style.display = "none";
+<audio id="idiot-audio" loop>
+  <source src="you-are-an-idiot.mp3" type="audio/mpeg">
+</audio>
+document.getElementById("disclaimer").style.display = "none";
   const interval = setInterval(() => {
     const face = document.createElement('div');
     face.textContent = "🫠 You Are An Idiot!";
